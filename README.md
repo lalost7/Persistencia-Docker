@@ -205,8 +205,6 @@ docker volume inspect mi-data-db
 
 Este comando permite visualizar la información detallada del volumen creado, incluyendo su nombre, ruta de almacenamiento y configuración.
 
----
-
 Conclusión
 
 En esta práctica se comprobó la importancia de la persistencia de datos en Docker.
@@ -216,17 +214,6 @@ Los contenedores sin volúmenes pierden toda la información al ser eliminados, 
 Mediante el uso de Named Volumes se logró desacoplar los datos del contenedor, permitiendo conservar la información incluso después de destruir y recrear el servicio.
 
 La persistencia es fundamental en entornos de producción porque garantiza la integridad de los datos y facilita tareas como respaldos, migraciones y recuperación de servicios.
-
----
-
-Evidencias Recomendadas
-
-* Captura de docker ps
-* Captura de creación del volumen
-* Captura de SELECT * FROM empleados
-* Captura de docker volume inspect mi-data-db
-
----
 
 Referencias Bibliográficas
 
